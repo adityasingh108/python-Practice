@@ -1,3 +1,8 @@
+"""
+Author :Aditya
+Date :14-05-2021
+prrpose :problem solving
+"""
 try:
     n = int(input("Enter The Number Harry ha got:")) # 
     mn = int(input("What is the minum Number:"))

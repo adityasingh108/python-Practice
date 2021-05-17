@@ -1,4 +1,9 @@
 ##This is the problem statement 
+"""
+Author :Aditya
+Date :15-05-2021
+prrpose :problem solving
+"""
 
 if __name__ == "__main__":  # main function
     # input the size of the list

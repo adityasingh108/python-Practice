@@ -1,3 +1,9 @@
+
+"""
+Author :Aditya
+Date :13-05-2021
+prrpose :problem solving
+"""
 def main():##acreate a main function which takes nothing 
     try:
         user = int(input("Enter your Age or Birth year"))#store the age or year in the user variable 

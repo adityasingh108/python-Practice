@@ -1,3 +1,10 @@
+"""
+Author :Aditya
+Date :16-05-2021
+prrpose :problem solving
+"""
+
+
 def next_palindrome(n):
     """ This Function if the number 
     is not palandromic, the whole function should be 
@@ -11,7 +18,7 @@ def next_palindrome(n):
 def is_palindrome(n):
     """This function return the number which is 
     palindromic number """
-    return str(n) == str(n)[::-1]
+    return str(n) == str(n)[::-1]  ## simply reverse the number or string 
 
 
 if __name__ == "__main__":
@@ -37,6 +44,6 @@ if __name__ == "__main__":
 
     for i in range(number_input):  # in this listed the palandromic number
         print(
-            f"This {list_of_number[i]} and The next palindrom is {next_palindrome(list_of_number[i])}")
+            f"{list_of_number[i]} next palindrom is {next_palindrome(list_of_number[i])}")
 
     # print(is_palindrome.__doc__)                 ### doc string retrev
