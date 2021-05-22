@@ -1,7 +1,9 @@
-import sys
+import sys 
 import argparse
 
 def claculator(args):
+    ''' command line ulitily function it is run in command
+    '''
     if args.num1 == 45 and args.num2 == 3 and args.num3 == "*":
         return "777"
     elif args.num1 == 56 and args.num2 == 9 and args.num3 == "+":
@@ -30,10 +32,10 @@ def claculator(args):
 
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--num1", type=int, default=5, help="enter firist number")
-    parser.add_argument("--num2", type=int, default=10, help="enter firist number")
-    parser.add_argument("--num3", type=str, default='+', help="enter firist number")
+if __name__ == '__main__': #main function
+    parser = argparse.ArgumentParser() #create a ojject of argument parser
+    parser.add_argument("--num1", type=int, default=5, help="enter firist number")# add  firist number  
+    parser.add_argument("--num2", type=int, default=10, help="enter firist number") # add second number into parser         
+    parser.add_argument("--num3", type=str, default='+', help="enter firist number")# add third number in  pasers
     args = parser.parse_args()
     sys.stdout.write(str(claculator(args)))
