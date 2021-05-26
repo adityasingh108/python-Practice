@@ -5,7 +5,7 @@ class library:
         self.lendict= {}
 
     def show_dict(self):
-        for key,value in self.lendict:
+        for key,value in self.lendict.item():
             return key,value
 
 

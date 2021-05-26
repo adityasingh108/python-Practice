@@ -6,7 +6,7 @@ if name =="fuck":
 if name.isnumeric():
     raise Exception("Enter the valid name")
 lenght = int(input("enter the password Lengh"))
-# name = input("what is your name ")
+
 time = datetime.now()
 lower = "abcdefghijklmnopqrstuvwxyz"
 uper = lower.upper()
