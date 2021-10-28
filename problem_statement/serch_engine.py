@@ -1,15 +1,8 @@
-
-from os import times
-
-
 def serch(sentence1, sentence2):
     """
     This function match the  senteces with the 
     entere query
     """
-
-
-
     word1 = sentence1.strip().split(" ")
     word2 = sentence2.strip().split(" ")
     word_score = 0
